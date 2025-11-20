@@ -160,7 +160,7 @@ def my_pow(x: float, n: int) -> float:
             ans *= x  # multiply
             n -= 1
         x *= x  # square
-        n //= 1
+        n //= 2
     return ans
     """
 
